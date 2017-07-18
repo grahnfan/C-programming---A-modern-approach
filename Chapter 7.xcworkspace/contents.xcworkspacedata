@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:7-15/7-15.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-14/7-14.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-13/7-13.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-12/7-12.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-11/7-11.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-10/7-10.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-9/7-9.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-8/7-8.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-7/7-7.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-6/7-6.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-5/7-5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-4/7-4.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-3/7-3.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-2/7-2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:7-1/7-1.xcodeproj">
+   </FileRef>
+</Workspace>
