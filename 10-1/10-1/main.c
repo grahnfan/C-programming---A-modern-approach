@@ -59,6 +59,13 @@ int stack_underflow(void)
     exit(EXIT_FAILURE);
 }
 
+void nesting(void)
+{
+    
+    printf("The parantheses/braces are not nested properly\n");
+
+}
+
 
 
 int main(int argc, const char * argv[]) {
@@ -66,7 +73,7 @@ int main(int argc, const char * argv[]) {
     char ch;
     printf("Enter parantheses and/or braces: ");
     
-    while(ch != 'n')
+    while(ch != '\n')
     {
         ch = getchar();
         
@@ -74,11 +81,22 @@ int main(int argc, const char * argv[]) {
         {
             push(ch);
         }
-        else if(ch == ')' || ch == '}')
+        else if(ch == ')' && pop() != '(')
         {
-            pop();
+            nesting();
+            break;
+        }
+        else if(ch == '}' && pop() != '{')
+        {
+            nesting();
+            break;
         }
     }
+    
+    if(is_empty())
+        printf("Parantheses/braces are matched\n");
+    else
+        printf("Parantheses/braces are not matched\n");
     
     
     return 0;
